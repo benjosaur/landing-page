@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+}
+
+body {
+  background-color: #1f2937;
+  color: white;
+}
+
+img {
+  width: 15vw;
+  height: 15vw;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 1vw;
+}
+
+button {
+  width: 150px;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 0.5vw;
+  border: 1.5px solid white;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.updog {
+  width: 20vw;
+  max-height: 20vw;
+}
+
+ul.nav {
+  display: flex;
+  list-style: none;
+  gap: 1vw;
+  margin: 2vw 10vw;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+#logo {
+  margin-right: auto;
+}
+
+.head {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  height: 25vw;
+  margin: 10vw;
+  justify-content: center;
+  gap: 2vw;
+  align-content: space-between;
+}
+
+.head h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  max-width: 80%;
+  overflow-wrap: break-word;
+}
+
+.head p {
+  word-wrap: break-word;
+  width: 50vw;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.head img {
+  margin: auto 3vw;
+  flex: 0 0 100%;
+}
+
+.main {
+  background-color: white;
+  color: #1f2937;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1vw;
+  padding: 3vw 15vw 9vw;
+}
+
+.main h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2vw;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.main img,
+.main p {
+  width: 20%;
+  text-align: center;
+  color: black;
+}
+
+.main p {
+  order: 1;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  padding: 10vw 15vw;
+  text-align: end;
+}
+
+#quote {
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 300;
+  text-align: start;
+  margin-bottom: 1vw;
+}
+
+.card-container {
+  background-color: white;
+  padding: 5vw 10vw;
+}
+
+.card {
+  background-color: #3882f6;
+  border-radius: 1vw;
+  color: white;
+  padding: 2vw 10vw;
+  display: flex;
+  flex-flow: column wrap;
+  height: 10vw;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.card div {
+  flex: 1 0 100%;
+  display: flex;
+}
+
+#card-button {
+  align-self: center;
+}
+
+#footer {
+  text-align: center;
+  margin: 2vw;
+}
